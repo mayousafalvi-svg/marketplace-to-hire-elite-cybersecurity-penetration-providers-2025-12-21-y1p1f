@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Awantrix | Marketplace to Hire Elite Cybersecurity Penetration Providers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Awantrix is the modern marketplace to hire elite, fully vetted cybersecurity penetration testing providers. Compare internal and external pen tests, pricing, and scope without sales pitches, and launch assessments in days instead of months." />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="https://awantrix.com/favicon.ico" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Material Icons Rounded -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #FF5A5F;
+      --secondary: #1A1A1A;
+      --accent: #FFD166;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: #050507;
+    }
+    .font-display {
+      font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .material-symbols-rounded {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-gray-100 antialiased scroll-smooth">
+  <!-- Page Wrapper -->
+  <div class="min-h-screen flex flex-col bg-gradient-to-br from-gray-950 via-gray-900 to-black">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-40 border-b border-gray-800/80 bg-gray-950/85 backdrop-blur">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav class="flex items-center justify-between h-16 md:h-20">
+          <!-- Logo -->
+          <a href="#top" class="flex items-center gap-2 group">
+            <div class="h-9 w-9 flex items-center justify-center rounded-lg bg-gradient-to-tr from-[var(--primary)] to-[var(--accent)] shadow-md shadow-[var(--primary)]/40">
+              <span class="material-symbols-rounded text-2xl text-gray-950">shield</span>
+            </div>
+            <div class="flex flex-col leading-tight">
+              <span class="font-display text-lg md:text-xl font-bold tracking-tight text-white group-hover:text-[var(--primary)] transition-colors duration-300">Awantrix</span>
+              <span class="text-[11px] md:text-xs uppercase tracking-[0.2em] text-gray-400">Pen Test Marketplace</span>
+            </div>
+          </a>
+
+          <!-- Desktop Nav -->
+          <div class="hidden md:flex items-center gap-10 text-sm font-light">
+            <a href="#features" class="text-gray-300 hover:text-[var(--primary)] transition-colors duration-300">Features</a>
+            <a href="#benefits" class="text-gray-300 hover:text-[var(--primary)] transition-colors duration-300">Why Awantrix</a>
+            <a href="#process" class="text-gray-300 hover:text-[var(--primary)] transition-colors duration-300">How It Works</a>
+            <a href="#testimonials" class="text-gray-300 hover:text-[var(--primary)] transition-colors duration-300">Testimonials</a>
+            <a href="#faq" class="text-gray-300 hover:text-[var(--primary)] transition-colors duration-300">FAQ</a>
+          </div>
+
+          <!-- Desktop CTA -->
+          <div class="hidden md:flex items-center gap-3">
+            <a href="https://awantrix.com" class="inline-flex items-center gap-2 rounded-[4px] border-2 border-[var(--primary)] bg-transparent px-5 py-2.5 text-sm font-medium text-[var(--primary)] transition-all duration-300 ease-in-out hover:bg-[var(--primary)] hover:text-white hover:shadow-lg hover:shadow-[var(--primary)]/40 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-gray-950">
+              <span>Browse Providers</span>
+              <span class="material-symbols-rounded text-base">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-button md:hidden inline-flex items-center justify-center rounded-md border border-gray-700 bg-gray-900/60 p-2 text-gray-200 hover:text-[var(--primary)] hover:border-[var(--primary)] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-gray-950" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-lg"></i>
+          </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden border-t border-gray-800 bg-gray-950/95 transition-all duration-300">
+          <div class="flex flex-col py-4 space-y-1 text-sm">
+            <a href="#features" class="px-3 py-2 text-gray-200 hover:bg-gray-900 hover:text-[var(--primary)] transition-colors duration-200">Features</a>
+            <a href="#benefits" class="px-3 py-2 text-gray-200 hover:bg-gray-900 hover:text-[var(--primary)] transition-colors duration-200">Why Awantrix</a>
+            <a href="#process" class="px-3 py-2 text-gray-200 hover:bg-gray-900 hover:text-[var(--primary)] transition-colors duration-200">How It Works</a>
+            <a href="#testimonials" class="px-3 py-2 text-gray-200 hover:bg-gray-900 hover:text-[var(--primary)] transition-colors duration-200">Testimonials</a>
+            <a href="#faq" class="px-3 py-2 text-gray-200 hover:bg-gray-900 hover:text-[var(--primary)] transition-colors duration-200">FAQ</a>
+            <div class="pt-2 mt-2 border-t border-gray-800">
+              <a href="https://awantrix.com" class="inline-flex w-full items-center justify-center gap-2 rounded-[4px] border-2 border-[var(--primary)] bg-transparent px-4 py-2 text-sm font-medium text-[var(--primary)] transition-all duration-300 hover:bg-[var(--primary)] hover:text-white hover:shadow-lg hover:shadow-[var(--primary)]/40 hover:scale-105">
+                <span>Hire Pen Testers</span>
+                <span class="material-symbols-rounded text-base">rocket_launch</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="top" class="flex-1">
+      <!-- Hero Section -->
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0 -z-10">
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,90,95,0.16),_transparent_55%),_radial-gradient(circle_at_bottom,_rgba(37,99,235,0.18),_transparent_55%)]"></div>
+          <div class="absolute -top-40 -left-40 h-80 w-80 rounded-full bg-[var(--primary)]/10 blur-3xl"></div>
+          <div class="absolute -bottom-32 -right-40 h-96 w-96 rounded-full bg-[var(--accent)]/10 blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <!-- Hero Content -->
+            <div class="lg:col-span-7 space-y-8">
+              <div class="inline-flex items-center gap-2 rounded-full border border-gray-800 bg-gray-900/70 px-3 py-1 text-xs md:text-sm text-gray-300 shadow-md shadow-black/40">
+                <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[var(--primary)]/10">
+                  <span class="material-symbols-rounded text-[var(--primary)] text-base">verified</span>
+                </span>
+                <span class="uppercase tracking-[0.25em] text-[10px] md:text-[11px] text-gray-400">Vetted Cybersecurity Penetration Providers</span>
+              </div>
+
+              <div>
+                <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-white leading-tight">
+                  Marketplace to hire
+                  <span class="text-[var(--primary)]">elite penetration</span>
+                  providers
+                </h1>
+                <p class="mt-4 max-w-2xl text-base md:text-lg font-light text-gray-300 leading-relaxed">
+                  Awantrix is the modern way to hire internal and external penetration testing services. Instantly compare
+                  top-tier, pre-vetted security providers, pricing, and scopes—without sitting through endless sales pitches.
+                  Launch the right pen test in days, not months.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 text-sm">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-2xl text-[var(--accent)]">schedule</span>
+                  <div>
+                    <p class="font-medium text-gray-100">Hire in Days</p>
+                    <p class="text-gray-400 font-light">Shortlist elite providers and lock in a start date in as little as 72 hours.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-2xl text-emerald-400">gavel</span>
+                  <div>
+                    <p class="font-medium text-gray-100">No Pressure Pitches</p>
+                    <p class="text-gray-400 font-light">Transparent scopes, pricing, and methodologies—before you ever talk to sales.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-2xl text-[var(--primary)]">shield_person</span>
+                  <div>
+                    <p class="font-medium text-gray-100">Vetted Experts Only</p>
+                    <p class="text-gray-400 font-light">Work exclusively with providers screened across 50+ security and delivery criteria.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
+                <a href="https://awantrix.com" class="inline-flex items-center justify-center gap-2 rounded-[4px] border-2 border-[var(--primary)] bg-transparent px-7 py-3 text-sm md:text-base font-medium text-[var(--primary)] transition-all duration-300 ease-in-out hover:bg-[var(--primary)] hover:text-white hover:shadow-lg hover:shadow-[var(--primary)]/40 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-gray-950">
+                  <span>Hire Top Vetted Pen Test Services</span>
+                  <span class="material-symbols-rounded text-xl">rocket_launch</span>
+                </a>
+                <button type="button" class="inline-flex items-center gap-2 text-sm md:text-base font-light text-gray-300 hover:text-[var(--accent)] transition-colors duration-300 focus:outline-none">
+                  <span class="material-symbols-rounded text-xl text-[var(--accent)]">play_circle</span>
+                  <span>See how the marketplace works in 2 minutes</span>
+                </button>
+              </div>
+
+              <div class="flex flex-wrap items-center gap-6 text-xs text-gray-400">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-rounded text-emerald-400 text-xl">lock</span>
+                  <span>Security-first workflows and NDAs on every engagement</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-rounded text-sky-400 text-xl">insights</span>
+                  <span>Helped hundreds of companies choose the right pen tests</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hero Visual -->
+            <div class="lg:col-span-5">
+              <div class="relative">
+                <div class="absolute -inset-1 rounded-xl bg-gradient-to-tr from-[var(--primary)]/60 via-[var(--accent)]/40 to-sky-500/40 opacity-80 blur-2xl"></div>
+                <div class="relative rounded-xl bg-gray-900/80 border border-gray-700/80 shadow-[0_25px_80px_rgba(0,0,0,0.85)] overflow-hidden">
+                  <div class="grid grid-cols-1 gap-0 md:grid-cols-2 border-b border-gray-800/70">
+                    <div class="p-5 border-b md:border-b-0 md:border-r border-gray-800/70">
+                      <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs uppercase tracking-[0.18em] text-gray-400">Scope Snapshot</span>
+                        <span class="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] text-emerald-300 border border-emerald-500/30">
+                          <span class="material-symbols-rounded text-xs">verified_user</span>
+                          Vetted
+                        </span>
+                      </div>
+                      <ul class="space-y-3 text-xs text-gray-300">
+                        <li class="flex items-start gap-2">
+                          <span class="material-symbols-rounded text-sm text-[var(--primary)] mt-0.5">check_circle</span>
+                          <span>External network penetration test covering perimeter, VPN, and exposed services.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <span class="material-symbols-rounded text-sm text-[var(--primary)] mt-0.5">check_circle</span>
+                          <span>Internal AD-aware testing with lateral movement and privilege escalation paths.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                          <span class="material-symbols-rounded text-sm text-[var(--primary)] mt-0.5">check_circle</span>
+                          <span>Retest window and remediation validation included as standard.</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="p-5 bg-gradient-to-br from-gray-900 to-gray-950/90">
+                      <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs uppercase tracking-[0.18em] text-gray-400">Provider Match</span>
+                        <span class="inline-flex items-center gap-1 text-[10px] text-gray-300">
+                          <span class="material-symbols-rounded text-base text-[var(--accent)]">bolt</span>
+                          Best fit
+                        </span>
+                      </div>
+                      <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                          <div class="h-9 w-9 rounded-full bg-[var(--primary)]/10 flex items-center justify-center">
+                            <span class="material-symbols-rounded text-[var(--primary)] text-xl">shield_person</span>
+                          </div>
+                          <div>
+                            <p class="text-sm font-medium">CrimsonGuard Security</p>
+                            <p class="text-[11px] text-gray-400">CREST, OSCP, CISSP | Finance &amp; SaaS specialist</p>
+                          </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3 text-[11px] text-gray-300">
+                          <div class="rounded-md border border-gray-800 bg-gray-900/60 p-2">
+                            <p class="text-[10px] uppercase tracking-[0.18em] text-gray-500">Lead Time</p>
+                            <p class="mt-1 text-xs font-medium text-emerald-300">Start in 5 business days</p>
+                          </div>
+                          <div class="rounded-md border border-gray-800 bg-gray-900/60 p-2">
+                            <p class="text-[10px] uppercase tracking-[0.18em] text-gray-500">Price Benchmark</p>
+                            <p class="mt-1 text-xs font-medium text-[var(--accent)]">12% below market median</p>
+                          </div>
+                        </div>
+                        <div class="rounded-md border border-gray-800 bg-gray-900/60 p-2 flex items-center justify-between">
+                          <div>
+                            <p class="text-[10px] uppercase tracking-[0.18em] text-gray-500">Fit Score</p>
+                            <p class="mt-1 text-xs font-medium text-sky-300">98% based on your environment &amp; goals</p>
+                          </div>
+                          <div class="flex -space-x-1">
+                            <span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
+                            <span class="h-2.5 w-2.5 rounded-full bg-emerald-400/80"></span>
+                            <span class="h-2.5 w-2.5 rounded-full bg-emerald-400/60"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 flex items-center justify-between text-[11px] text-gray-400">
+                    <div class="flex items-center gap-2">
+                      <span class="material-symbols-rounded text-base text-emerald-400">trending_up</span>
+                      <span>Avg. 37% faster from brief to signed SoW via Awantrix.</span>
+                    </div>
+                    <span class="hidden sm:inline text-gray-500">Data based on last 200 engagements.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="py-16 md:py-24 border-t border-gray-800/80 bg-gradient-to-b from-gray-950 via-gray-950 to-gray-900/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-12">
+            <div>
+              <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-3">
+                Hire in days, not months
+              </h2>
+              <p class="max-w-2xl text-sm md:text-base font-light text-gray-300">
+                Awantrix compresses the entire penetration testing procurement cycle. From requirements scoping to
+                provider selection, you see apples-to-apples pricing, methodology, and deliverables—without back-and-forth
+                calls or opaque proposals.
+              </p>
+            </div>
+            <div class="flex items-center gap-3 text-xs text-gray-400">
+              <span class="material-symbols-rounded text-lg text-[var(--accent)]">speed</span>
+              <span>Median time from brief to project start: <span class="text-gray-100 font-medium">7 business days</span></span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <!-- Feature 1 -->
+            <article class="group rounded-lg border border-gray-800 bg-gray-900/60 p-6 shadow-md shadow-black/40 hover:shadow-xl hover:shadow-black/60 hover:scale-[1.02] transition-all duration-300 ease-in-out">
+              <div class="flex items-center justify-between mb-5">
+                <div class="flex items-center gap-3">
+                  <span class="material-symbols-rounded text-3xl text-[var(--primary)]">search_check</span>
+                  <h3 class="font-display text-lg font-semibold text-white tracking-tight">
+                    Compare providers side by side
+                  </h3>
+                </div>
+                <span class="inline-flex items-center justify-center rounded-full bg-[var(--primary)]/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-[var(--primary)]">
+                  Transparent
+                </span>
+              </div>
+              <p class="mb-4 text-sm font-light text-gray-300">
+                Skip the generic slide decks. View standardized profiles for each provider, including certifications,
+                industry focus, tooling preferences, and reporting styles. Compare internal and external pen test
+                offers in a single, structured view.
+              </p>
+              <ul class="space-y-2 text-sm text-gray-300">
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-[var(--accent)] mt-0.5">check_circle</span>
+                  <span>Scope, methodology, and pricing broken down by asset and attack surface.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-[var(--accent)] mt-0.5">check_circle</span>
+                  <span>Filter by compliance needs like SOC 2, PCI DSS, HIPAA, ISO 27001, and more.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-[var(--accent)] mt-0.5">check_circle</span>
+                  <span>Instant signal on over-scoped or under-scoped proposals.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Feature 2 -->
+            <article class="group rounded-lg border border-gray-800 bg-gray-900/60 p-6 shadow-md shadow-black/40 hover:shadow-xl hover:shadow-black/60 hover:scale-[1.02] transition-all duration-300 ease-in-out">
+              <div class="flex items-center justify-between mb-5">
+                <div class="flex items-center gap-3">
+                  <span class="material-symbols-rounded text-3xl text-sky-400">summarize</span>
+                  <h3 class="font-display text-lg font-semibold text-white tracking-tight">
+                    Structured, no-pitch discovery
+                  </h3>
+                </div>
+                <span class="inline-flex items-center justify-center rounded-full bg-sky-500/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-sky-300">
+                  Buyer-first
+                </span>
+              </div>
+              <p class="mb-4 text-sm font-light text-gray-300">
+                Instead of unstructured sales calls, our marketplace guides you through a concise, security-focused
+                intake. Providers respond inside that framework—so you evaluate the work, not the presentation.
+              </p>
+              <ul class="space-y-2 text-sm text-gray-300">
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-sky-300 mt-0.5">check_circle</span>
+                  <span>Define objectives, assets, constraints, and timelines in under 10 minutes.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-sky-300 mt-0.5">check_circle</span>
+                  <span>Receive structured responses optimized for security, not upsell.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-sky-300 mt-0.5">check_circle</span>
+                  <span>Async Q&amp;A keeps noise low and decisions fast.</span>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Feature 3 -->
+            <article class="group rounded-lg border border-gray-800 bg-gray-900/60 p-6 shadow-md shadow-black/40 hover:shadow-xl hover:shadow-black/60 hover:scale-[1.02] transition-all duration-300 ease-in-out">
+              <div class="flex items-center justify-between mb-5">
+                <div class="flex items-center gap-3">
+                  <span class="material-symbols-rounded text-3xl text-emerald-400">workspace_premium</span>
+                  <h3 class="font-display text-lg font-semibold text-white tracking-tight">
+                    Elite, pre-vetted penetration teams
+                  </h3>
+                </div>
+                <span class="inline-flex items-center justify-center rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-emerald-300">
+                  Curated
+                </span>
+              </div>
+              <p class="mb-4 text-sm font-light text-gray-300">
+                Every provider on Awantrix passes rigorous screening for technical depth, ethical standards, and
+                communication quality. You get boutique-level expertise with marketplace-level speed and choice.
+              </p>
+              <ul class="space-y-2 text-sm text-gray-300">
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-emerald-300 mt-0.5">check_circle</span>
+                  <span>Verified certifications, methodologies, and real-world case studies.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-emerald-300 mt-0.5">check_circle</span>
+                  <span>Ongoing performance scoring based on delivery, thoroughness, and clarity of reports.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="material-symbols-rounded text-base text-emerald-300 mt-0.5">check_circle</span>
+                  <span>Specialists across web, mobile, cloud, internal networks, and red teaming.</span>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits Section -->
+      <section id="benefits" class="py-16 md:py-24 border-t border-gray-800/70 bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+            <div>
+              <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+                Proven outcomes from hundreds of penetration tests
+              </h2>
+              <p class="text-sm md:text-base font-light text-gray-300 mb-6">
+                We have helped hundreds of companies—from seed-stage startups to global enterprises—choose the right
+                penetration tests for their risk profile, budget, and regulatory needs. The result: faster audits,
+                cleaner remediation roadmaps, and fewer surprises in production.
+              </p>
+              <div class="grid grid-cols-2 gap-4 md:gap-6 mb-8">
+                <div class="rounded-lg border border-gray-800 bg-gray-900/60 p-4 shadow-md shadow-black/40">
+                  <p class="text-xs uppercase tracking-[0.2em] text-gray-400 mb-1">Time to engagement</p>
+                  <p class="text-2xl font-display font-bold text-[var(--accent)]">-37%</p>
+                  <p class="mt-1 text-xs text-gray-400">Average reduction in time from RFP to signed SoW.</p>
+                </div>
+                <div class="rounded-lg border border-gray-800 bg-gray-900/60 p-4 shadow-md shadow-black/40">
+                  <p class="text-xs uppercase tracking-[0.2em] text-gray-400 mb-1">Remediation clarity</p>
+                  <p class="text-2xl font-display font-bold text-emerald-300">+52%</p>
+                  <p class="mt-1 text-xs text-gray-400">Increase in teams rating reports as “highly actionable”.</p>
+                </div>
+              </div>
+              <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                <li class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-[22px] text-[var(--primary)] mt-0.5">shield</span>
+                  <span>Align scope with real risk. Avoid overpaying for boilerplate tests, or under-scoping critical systems that auditors will scrutinize.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-[22px] text-[var(--primary)] mt-0.5">handshake</span>
+                  <span>Gain an independent view. Our marketplace surfacing helps you avoid conflicts of interest and biased recommendations.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-[22px] text-[var(--primary)] mt-0.5">insights</span>
+                  <span>Benchmark pricing and quality. See where each proposal sits relative to the broader market and past Awantrix engagements.</span>
+                </li>
+              </ul>
+              <a href="https://awantrix.com" class="inline-flex items-center justify-center gap-2 rounded-[4px] border-2 border-[var(--primary)] bg-transparent px-6 py-3 text-sm font-medium text-[var(--primary)] transition-all duration-300 ease-in-out hover:bg-[var(--primary)] hover:text-white hover:shadow-lg hover:shadow-[var(--primary)]/40 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-gray-950">
+                <span>See how Awantrix chooses the right pen test for you</span>
+                <span class="material-symbols-rounded text-lg">arrow_forward</span>
+              </a>
+            </div>
+
+            <div class="grid grid-cols-1 gap-5">
+              <!-- Benefit Card 1 -->
+              <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/40 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+                <div class="flex items-center gap-3 mb-3">
+                  <span class="material-symbols-rounded text-3xl text-[var(--accent)]">target</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold text-white tracking-tight">Tailored internal &amp; external testing</h3>
+                    <p class="text-xs uppercase tracking-[0.18em] text-gray-400">Right test, right surface</p>
+                  </div>
+                </div>
+                <p class="text-sm font-light text-gray-300">
+                  Whether you need an internal network assessment, external perimeter test, application-level
+                  security, or a blended engagement, Awantrix maps your goals to the most appropriate test types
+                  and providers—backed by real outcomes from similar environments.
+                </p>
+              </article>
+
+              <!-- Benefit Card 2 -->
+              <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/40 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+                <div class="flex items-center gap-3 mb-3">
+                  <span class="material-symbols-rounded text-3xl text-sky-400">dataset_linked</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold text-white tracking-tight">Less noise, more signal</h3>
+                    <p class="text-xs uppercase tracking-[0.18em] text-gray-400">Security leaders, not shoppers</p>
+                  </div>
+                </div>
+                <p class="text-sm font-light text-gray-300">
+                  CISOs and security leads use Awantrix to cut through vendor noise. With normalized proposals and
+                  expert-curated scoring, your team spends less time deciphering marketing language and more time
+                  focusing on real technical trade-offs.
+                </p>
+              </article>
+
+              <!-- Benefit Card 3 -->
+              <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/40 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+                <div class="flex items-center gap-3 mb-3">
+                  <span class="material-symbols-rounded text-3xl text-emerald-400">verified_user</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold text-white tracking-tight">Trustworthy, audit-ready deliverables</h3>
+                    <p class="text-xs uppercase tracking-[0.18em] text-gray-400">Designed for auditors &amp; engineers</p>
+                  </div>
+                </div>
+                <p class="text-sm font-light text-gray-300">
+                  Providers on Awantrix are selected not only for exploit depth but also for how well they document,
+                  prioritize, and communicate findings. That means reports your engineers can act on immediately and
+                  your auditors can trust without endless clarifications.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process Section -->
+      <section id="process" class="py-16 md:py-24 border-t border-gray-800/70 bg-gradient-to-b from-gray-950 to-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-12">
+            <div>
+              <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-3">
+                From brief to live engagement in four steps
+              </h2>
+              <p class="max-w-2xl text-sm md:text-base font-light text-gray-300">
+                Awantrix brings structure, transparency, and speed to penetration testing procurement—while keeping
+                you in full control of vendor choices and security outcomes.
+              </p>
+            </div>
+            <div class="flex items-center gap-3 text-xs text-gray-400">
+              <span class="material-symbols-rounded text-lg text-[var(--primary)]">security</span>
+              <span>Security-first by design. No provider access until scopes and NDAs are locked.</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
+            <!-- Step 1 -->
+            <div class="relative rounded-lg border border-gray-800 bg-gray-900/60 p-5 shadow-md shadow-black/40 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--primary)]/15 border border-[var(--primary)]/60">
+                  <span class="text-xs font-medium text-[var(--primary)]">01</span>
+                </span>
+                <span class="material-symbols-rounded text-2xl text-[var(--accent)]">edit_note</span>
+              </div>
+              <h3 class="font-display text-base font-semibold text-white tracking-tight">Define your objectives</h3>
+              <p class="text-xs text-gray-300 font-light">
+                Complete a guided brief capturing your environment, test types, compliance drivers, and risk priorities.
+              </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="relative rounded-lg border border-gray-800 bg-gray-900/60 p-5 shadow-md shadow-black/40 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--primary)]/15 border border-[var(--primary)]/60">
+                  <span class="text-xs font-medium text-[var(--primary)]">02</span>
+                </span>
+                <span class="material-symbols-rounded text-2xl text-sky-400">hub</span>
+              </div>
+              <h3 class="font-display text-base font-semibold text-white tracking-tight">Get curated matches</h3>
+              <p class="text-xs text-gray-300 font-light">
+                Our engine surfaces 3–5 best-fit providers based on sector, scale, stack, and historical performance.
+              </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="relative rounded-lg border border-gray-800 bg-gray-900/60 p-5 shadow-md shadow-black/40 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--primary)]/15 border border-[var(--primary)]/60">
+                  <span class="text-xs font-medium text-[var(--primary)]">03</span>
+                </span>
+                <span class="material-symbols-rounded text-2xl text-emerald-400">compare</span>
+              </div>
+              <h3 class="font-display text-base font-semibold text-white tracking-tight">Compare scopes &amp; pricing</h3>
+              <p class="text-xs text-gray-300 font-light">
+                Review standardized proposals showing attack paths, depth, testing windows, and total investment.
+              </p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="relative rounded-lg border border-gray-800 bg-gray-900/60 p-5 shadow-md shadow-black/40 flex flex-col gap-3">
+              <div class="flex items-center justify-between">
+                <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[var(--primary)]/15 border border-[var(--primary)]/60">
+                  <span class="text-xs font-medium text-[var(--primary)]">04</span>
+                </span>
+                <span class="material-symbols-rounded text-2xl text-[var(--primary)]">rocket_launch</span>
+              </div>
+              <h3 class="font-display text-base font-semibold text-white tracking-tight">Launch &amp; track</h3>
+              <p class="text-xs text-gray-300 font-light">
+                Lock the provider, sign SoW, and track engagement status with clear milestones and reporting dates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section with Background Image -->
+      <section class="relative py-16 md:py-24 border-t border-gray-800/70">
+        <div class="absolute inset-0 -z-10">
+          <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-gray-950/85 to-black/75"></div>
+          <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
+            <div class="md:col-span-2">
+              <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+                Ready to hire elite penetration testers without the noise?
+              </h2>
+              <p class="max-w-2xl text-sm md:text-base font-light text-gray-200 mb-6">
+                Share your environment and objectives once. Awantrix will surface the most relevant internal and external
+                penetration testing providers, complete with clear scopes, pricing, and timelines—before you ever join a call.
+              </p>
+              <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
+                <a href="https://awantrix.com" class="inline-flex items-center justify-center gap-2 rounded-[4px] border-2 border-[var(--primary)] bg-transparent px-7 py-3 text-sm md:text-base font-medium text-[var(--primary)] transition-all duration-300 ease-in-out hover:bg-[var(--primary)] hover:text-white hover:shadow-lg hover:shadow-[var(--primary)]/50 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:ring-offset-2 focus:ring-offset-black">
+                  <span>Start your pen test brief</span>
+                  <span class="material-symbols-rounded text-xl">arrow_forward</span>
+                </a>
+                <button type="button" class="inline-flex items-center gap-2 text-xs md:text-sm font-light text-gray-200 hover:text-[var(--accent)] transition-colors duration-300 focus:outline-none">
+                  <span class="material-symbols-rounded text-lg text-[var(--accent)]">lock_clock</span>
+                  <span>Launch in as little as 7 business days</span>
+                </button>
+              </div>
+            </div>
+            <div class="md:col-span-1">
+              <div class="rounded-lg border border-gray-700/80 bg-black/60 p-5 shadow-md shadow-black/70 backdrop-blur-sm">
+                <p class="text-xs uppercase tracking-[0.2em] text-gray-400 mb-3">Why teams choose Awantrix</p>
+                <ul class="space-y-3 text-xs text-gray-200">
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-rounded text-base text-[var(--accent)] mt-0.5">bolt</span>
+                    <span>Fast track from idea to signed engagement with a marketplace optimized for security teams.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-rounded text-base text-[var(--accent)] mt-0.5">diversity_3</span>
+                    <span>Curated network of niche experts across industries, technologies, and threat models.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-rounded text-base text-[var(--accent)] mt-0.5">rule</span>
+                    <span>Designed for compliance-heavy environments without sacrificing real-world attack realism.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="py-16 md:py-24 border-t border-gray-800/70 bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-10">
+            <div>
+              <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-3">
+                Trusted by security leaders worldwide
+              </h2>
+              <p class="max-w-2xl text-sm md:text-base font-light text-gray-300">
+                From fast-growing SaaS startups to regulated financial institutions, Awantrix has helped security teams
+                run penetration tests that actually move the needle.
+              </p>
+            </div>
+            <div class="flex items-center gap-2 text-xs text-gray-400">
+              <span class="material-symbols-rounded text-lg text-amber-300">star</span>
+              <span>Average provider rating: <span class="text-gray-100 font-medium">4.9 / 5.0</span> across recent engagements</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-7">
+            <!-- Testimonial 1 -->
+            <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/50 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+              <div class="flex items-center justify-between mb-3">
+                <div>
+                  <p class="font-medium text-sm text-white">Sarah Mitchell</p>
+                  <p class="text-xs text-gray-400">VP Security, Fintrail Bank</p>
+                </div>
+                <div class="flex items-center gap-0.5 text-amber-300">
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                </div>
+              </div>
+              <p class="text-sm font-light text-gray-200">
+                “We compressed our pen test procurement from nearly two months to just over a week. The Awantrix
+                marketplace surfaced three highly credible providers with clearly differentiated scopes, and we
+                ended up with a far deeper external and internal assessment for the same budget we spent last year.”
+              </p>
+            </article>
+
+            <!-- Testimonial 2 -->
+            <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/50 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+              <div class="flex items-center justify-between mb-3">
+                <div>
+                  <p class="font-medium text-sm text-white">Daniel Lee</p>
+                  <p class="text-xs text-gray-400">Head of Platform, Arcus SaaS</p>
+                </div>
+                <div class="flex items-center gap-0.5 text-amber-300">
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                </div>
+              </div>
+              <p class="text-sm font-light text-gray-200">
+                “What stood out was how actionable the findings were. The Awantrix-vetted provider gave us prioritized
+                exploit chains, clear remediation guidance, and a retest schedule. Our engineering team closed 87% of
+                critical findings within one sprint because the report was so well structured.”
+              </p>
+            </article>
+
+            <!-- Testimonial 3 -->
+            <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/50 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+              <div class="flex items-center justify-between mb-3">
+                <div>
+                  <p class="font-medium text-sm text-white">Priya Narayanan</p>
+                  <p class="text-xs text-gray-400">CISO, Medispring Health</p>
+                </div>
+                <div class="flex items-center gap-0.5 text-amber-300">
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                </div>
+              </div>
+              <p class="text-sm font-light text-gray-200">
+                “We needed a partner who understood both healthcare regulations and complex internal networks.
+                Awantrix quickly narrowed the field to specialists with the right experience. The final engagement
+                helped us satisfy both HIPAA and ISO 27001 auditors with minimal rework.”
+              </p>
+            </article>
+
+            <!-- Testimonial 4 -->
+            <article class="rounded-lg border border-gray-800 bg-gray-900/70 p-5 shadow-md shadow-black/50 hover:shadow-xl hover:shadow-black/70 hover:scale-[1.02] transition-all duration-300">
+              <div class="flex items-center justify-between mb-3">
+                <div>
+                  <p class="font-medium text-sm text-white">James Carter</p>
+                  <p class="text-xs text-gray-400">Founder &amp; CTO, Lumen Analytics</p>
+                </div>
+                <div class="flex items-center gap-0.5 text-amber-300">
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                  <i class="fas fa-star text-xs"></i>
+                </div>
+              </div>
+              <p class="text-sm font-light text-gray-200">
+                “As a startup, we did not have time to get stuck in long sales cycles. Awantrix gave us direct
+                access to boutique penetration teams that worked within our budget and still delivered enterprise-grade
+                testing. We were able to show our investors a credible security posture in record time.”
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about" class="py-16 md:py-24 border-t border-gray-800/70 bg-gradient-to-b from-gray-950 to-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl">
+            <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+              About Awantrix
+            </h2>
+            <p class="text-sm md:text-base font-light text-gray-300 mb-4">
+              Awantrix was founded by security practitioners and former buyers of penetration testing services who were
+              frustrated by opaque pricing, generic scopes, and long, sales-driven processes. After running dozens of pen
+              tests across startups and enterprises, our team saw the same pattern repeat: security leaders spending
+              weeks navigating vendor pitches just to get to a clear view of options. We built Awantrix to transform that
+              experience into a structured, transparent marketplace that respects your time and risk.
+            </p>
+            <p class="text-sm md:text-base font-light text-gray-300">
+              Our mission is to help every organization—from early-stage companies to global enterprises—run penetration
+              testing that is aligned with real-world threats and business objectives. We believe in buyer-first design,
+              rigorous vetting of providers, and uncompromising security standards. At our core, we value clarity,
+              integrity, and measurable impact. Everything we build is aimed at giving security teams more signal, less
+              noise, and a faster path to meaningful security improvements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="py-16 md:py-24 border-t border-gray-800/70 bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl mb-10">
+            <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-3">
+              Frequently asked questions
+            </h2>
+            <p class="text-sm md:text-base font-light text-gray-300">
+              Straight answers to the questions teams ask most when choosing penetration testing providers through Awantrix.
+            </p>
+          </div>
+
+          <div class="space-y-3">
+            <!-- FAQ 1 -->
+            <div class="faq-item rounded-lg border border-gray-800 bg-gray-900/70 shadow-md shadow-black/40">
+              <button type="button" class="faq-question w-full flex items-center justify-between px-4 md:px-5 py-4 text-left cursor-pointer focus:outline-none">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-xl text-[var(--primary)] mt-0.5">help</span>
+                  <span class="text-sm md:text-base font-medium text-gray-100">
+                    How does Awantrix vet penetration testing providers before they appear in the marketplace?
+                  </span>
+                </div>
+                <span class="faq-icon material-symbols-rounded text-xl text-gray-400 transition-transform duration-300 ease-in-out">expand_more</span>
+              </button>
+              <div class="faq-answer hidden px-4 md:px-5 pb-4 md:pb-5 text-sm font-light text-gray-300 border-t border-gray-800">
+                <p class="pt-2">
+                  Every provider on Awantrix goes through a multi-step vetting process. We review certifications
+                  (e.g., OSCP, OSWE, CREST, GXPN), real-world sample reports, and customer references, and we conduct
+                  structured interviews with senior technical leads. We also evaluate communication quality, methodology
+                  transparency, and their ability to produce audit-ready deliverables. Providers are continuously
+                  scored based on engagement outcomes, so only consistently high-performing teams remain in the curated
+                  set we surface to you.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item rounded-lg border border-gray-800 bg-gray-900/70 shadow-md shadow-black/40">
+              <button type="button" class="faq-question w-full flex items-center justify-between px-4 md:px-5 py-4 text-left cursor-pointer focus:outline-none">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-xl text-[var(--primary)] mt-0.5">help</span>
+                  <span class="text-sm md:text-base font-medium text-gray-100">
+                    Can Awantrix support both internal network and external perimeter penetration tests?
+                  </span>
+                </div>
+                <span class="faq-icon material-symbols-rounded text-xl text-gray-400 transition-transform duration-300 ease-in-out">expand_more</span>
+              </button>
+              <div class="faq-answer hidden px-4 md:px-5 pb-4 md:pb-5 text-sm font-light text-gray-300 border-t border-gray-800">
+                <p class="pt-2">
+                  Yes. The marketplace is designed to cover a wide range of penetration testing types, including
+                  internal network assessments, external perimeter tests, web and mobile application testing,
+                  cloud configuration reviews, and blended scopes that combine multiple surfaces. During your initial
+                  brief, you specify which environments and assets you want tested, and we match you with providers
+                  that have demonstrable experience in exactly those areas.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item rounded-lg border border-gray-800 bg-gray-900/70 shadow-md shadow-black/40">
+              <button type="button" class="faq-question w-full flex items-center justify-between px-4 md:px-5 py-4 text-left cursor-pointer focus:outline-none">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-xl text-[var(--primary)] mt-0.5">help</span>
+                  <span class="text-sm md:text-base font-medium text-gray-100">
+                    How is pricing handled, and can I compare costs across multiple providers easily?
+                  </span>
+                </div>
+                <span class="faq-icon material-symbols-rounded text-xl text-gray-400 transition-transform duration-300 ease-in-out">expand_more</span>
+              </button>
+              <div class="faq-answer hidden px-4 md:px-5 pb-4 md:pb-5 text-sm font-light text-gray-300 border-t border-gray-800">
+                <p class="pt-2">
+                  Awantrix standardizes how providers present pricing so you can compare like-for-like. Proposals break
+                  down costs by scope components (e.g., number of IPs, applications, environments), testing depth,
+                  and retesting options. You see total engagement investment alongside benchmarks from similar projects
+                  run through the marketplace, helping you understand whether a quote is above, below, or in line with
+                  current market rates for your requirements.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item rounded-lg border border-gray-800 bg-gray-900/70 shadow-md shadow-black/40">
+              <button type="button" class="faq-question w-full flex items-center justify-between px-4 md:px-5 py-4 text-left cursor-pointer focus:outline-none">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-xl text-[var(--primary)] mt-0.5">help</span>
+                  <span class="text-sm md:text-base font-medium text-gray-100">
+                    We operate in a regulated industry. Can Awantrix support our compliance requirements?
+                  </span>
+                </div>
+                <span class="faq-icon material-symbols-rounded text-xl text-gray-400 transition-transform duration-300 ease-in-out">expand_more</span>
+              </button>
+              <div class="faq-answer hidden px-4 md:px-5 pb-4 md:pb-5 text-sm font-light text-gray-300 border-t border-gray-800">
+                <p class="pt-2">
+                  Absolutely. Many of the providers in our network specialize in regulated sectors such as finance,
+                  healthcare, and critical infrastructure. During onboarding, you can specify requirements like SOC 2,
+                  PCI DSS, HIPAA, or ISO 27001, and we will prioritize providers whose methodologies, documentation,
+                  and reporting formats are already accepted by auditors in your industry. This reduces friction during
+                  audits and helps ensure your pen test investment directly supports compliance objectives.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item rounded-lg border border-gray-800 bg-gray-900/70 shadow-md shadow-black/40">
+              <button type="button" class="faq-question w-full flex items-center justify-between px-4 md:px-5 py-4 text-left cursor-pointer focus:outline-none">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-rounded text-xl text-[var(--primary)] mt-0.5">help</span>
+                  <span class="text-sm md:text-base font-medium text-gray-100">
+                    What does the engagement process look like once we choose a provider through Awantrix?
+                  </span>
+                </div>
+                <span class="faq-icon material-symbols-rounded text-xl text-gray-400 transition-transform duration-300 ease-in-out">expand_more</span>
+              </button>
+              <div class="faq-answer hidden px-4 md:px-5 pb-4 md:pb-5 text-sm font-light text-gray-300 border-t border-gray-800">
+                <p class="pt-2">
+                  After you select a provider, Awantrix helps finalize scope details, NDAs, and SoW terms. You then
+                  move into a clearly defined engagement timeline with milestones for kickoff, testing windows,
+                  check-ins, and final reporting. Throughout the process, communication channels and status updates
+                  remain structured, so you always know what is happening and when to expect deliverables. Many
+                  engagements also include a retest phase to validate that critical findings have been effectively
+                  remediated.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    
+    <!-- Contact Form Section - Split Layout -->
+    <section id="contact" class="py-20" style="background: #1A1A1A;">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #ffffff;">Get in Touch</h2>
+          <p class="text-lg opacity-75" style="color: #ffffff;">We're here to help and answer any questions you might have</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-start">
+          <!-- Contact Information Column -->
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-2xl font-bold mb-6" style="color: #ffffff;">Contact Information</h3>
+              <div class="space-y-6">
+                <div class="flex items-start space-x-4">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6" style="color: #FF5A5F;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-semibold" style="color: #ffffff;">Email</p>
+                    <a href="mailto:hello@example.com" class="hover:opacity-80 transition-opacity" style="color: #FF5A5F;">hello@example.com</a>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-4">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6" style="color: #FF5A5F;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-semibold" style="color: #ffffff;">Phone</p>
+                    <a href="tel:+1234567890" class="hover:opacity-80 transition-opacity" style="color: #FF5A5F;">+1 (234) 567-890</a>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-4">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6" style="color: #FF5A5F;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-semibold" style="color: #ffffff;">Address</p>
+                    <p class="opacity-75" style="color: #ffffff;">123 Business St, Suite 100<br>City, State 12345</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded p-6" style="background: #FF5A5F15; border: 1px solid #FF5A5F30;">
+              <h4 class="font-semibold mb-2" style="color: #ffffff;">Business Hours</h4>
+              <p class="opacity-75 text-sm" style="color: #ffffff;">Monday - Friday: 9:00 AM - 6:00 PM</p>
+              <p class="opacity-75 text-sm" style="color: #ffffff;">Saturday: 10:00 AM - 4:00 PM</p>
+              <p class="opacity-75 text-sm" style="color: #ffffff;">Sunday: Closed</p>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div class="rounded shadow-lg p-8" style="background: #252525;">
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-5">
+              <input type="hidden" name="access_key" value="c4ab11f5-5a6d-4be2-bd0f-3a28aa4d7990">
+              <input type="hidden" name="redirect" value="false">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+              <div>
+                <label for="name" class="block text-sm font-semibold mb-2" style="color: #ffffff;">Name *</label>
+                <input 
+                  type="text" 
+                  name="name" 
+                  id="name" 
+                  required 
+                  class="w-full px-4 py-3 border rounded outline-none transition-all" 
+                  style="border-color: #3f3f3f; background: #2d2d2d; color: #ffffff;"
+                  onfocus="this.style.borderColor='#FF5A5F'; this.style.boxShadow='0 0 0 3px #FF5A5F20'"
+                  onblur="this.style.borderColor='#3f3f3f'; this.style.boxShadow='none'"
+                  placeholder="Your name"
+                >
+              </div>
+
+              <div>
+                <label for="email" class="block text-sm font-semibold mb-2" style="color: #ffffff;">Email *</label>
+                <input 
+                  type="email" 
+                  name="email" 
+                  id="email" 
+                  required 
+                  class="w-full px-4 py-3 border rounded outline-none transition-all"
+                  style="border-color: #3f3f3f; background: #2d2d2d; color: #ffffff;"
+                  onfocus="this.style.borderColor='#FF5A5F'; this.style.boxShadow='0 0 0 3px #FF5A5F20'"
+                  onblur="this.style.borderColor='#3f3f3f'; this.style.boxShadow='none'"
+                  placeholder="you@example.com"
+                >
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-semibold mb-2" style="color: #ffffff;">Message *</label>
+                <textarea 
+                  name="message" 
+                  id="message" 
+                  required 
+                  rows="4" 
+                  class="w-full px-4 py-3 border rounded outline-none resize-none transition-all"
+                  style="border-color: #3f3f3f; background: #2d2d2d; color: #ffffff;"
+                  onfocus="this.style.borderColor='#FF5A5F'; this.style.boxShadow='0 0 0 3px #FF5A5F20'"
+                  onblur="this.style.borderColor='#3f3f3f'; this.style.boxShadow='none'"
+                  placeholder="Your message..."
+                ></textarea>
+              </div>
+
+              <button 
+                type="submit" 
+                id="submit-btn-split"
+                class="w-full font-semibold py-3 px-6 rounded transition-all duration-200 shadow-md hover:shadow-lg"
+                style="background: transparent; border: 2px solid #FF5A5F; color: #FF5A5F;"
+                onmouseover="this.style.opacity='0.9'"
+                onmouseout="this.style.opacity='1'"
+              >
+                Send Message
+              </button>
+              
+              <div id="form-message-split" class="mt-4 p-4 rounded hidden" style="background: #10b981; color: #ffffff;">
+                ✓ Message sent successfully!
+              </div>
+            </form>
+            
+            <script>
+              (function() {
+                const form = document.getElementById('contact-form');
+                const submitBtn = document.getElementById('submit-btn-split');
+                const messageDiv = document.getElementById('form-message-split');
+                
+                form.addEventListener('submit', async (e) => {
+                  e.preventDefault();
+                  submitBtn.disabled = true;
+                  submitBtn.textContent = 'Sending...';
+                  
+                  try {
+                    const formData = new FormData(form);
+                    const response = await fetch('https://api.web3forms.com/submit', {
+                      method: 'POST',
+                      body: formData
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.success) {
+                      form.reset();
+                      messageDiv.classList.remove('hidden');
+                      submitBtn.textContent = 'Sent';
+                      
+                      setTimeout(() => {
+                        messageDiv.classList.add('hidden');
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Send Message';
+                      }, 5000);
+                    } else {
+                      throw new Error('Submission failed');
+                    }
+                  } catch (error) {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Send Message';
+                    messageDiv.style.background = '#ef4444';
+                    messageDiv.textContent = '✗ Failed to send. Please try again.';
+                    messageDiv.classList.remove('hidden');
+                    
+                    setTimeout(() => {
+                      messageDiv.classList.add('hidden');
+                      messageDiv.style.background = '#10b981';
+                      messageDiv.textContent = '✓ Message sent successfully!';
+                    }, 5000);
+                  }
+                });
+              })();
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+  <footer class="border-t border-gray-800/80 bg-black">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-12 mb-10">
+          <!-- Brand -->
+          <div class="md:col-span-1">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="h-9 w-9 flex items-center justify-center rounded-lg bg-gradient-to-tr from-[var(--primary)] to-[var(--accent)] shadow-md shadow-[var(--primary)]/40">
+                <span class="material-symbols-rounded text-2xl text-gray-950">shield</span>
+              </div>
+              <div>
+                <p class="font-display text-lg font-bold tracking-tight text-white">Awantrix</p>
+                <p class="text-[11px] uppercase tracking-[0.24em] text-gray-500">Pen Test Marketplace</p>
+              </div>
+            </div>
+            <p class="text-xs font-light text-gray-400 mb-3">
+              The modern way to hire elite, fully vetted cybersecurity penetration testing providers—with transparent
+              scopes, pricing, and timelines.
+            </p>
+            <div class="flex items-center gap-3 text-xs text-gray-400">
+              <span class="material-symbols-rounded text-base text-emerald-400">lock</span>
+              <span>Security-first by design.</span>
+            </div>
+          </div>
+
+          <!-- Links -->
+          <div>
+            <h3 class="text-sm font-medium text-gray-200 mb-3 flex items-center gap-2">
+              <span class="material-symbols-rounded text-base text-[var(--primary)]">menu_book</span>
+              Resources
+            </h3>
+            <ul class="space-y-2 text-sm font-light text-gray-400">
+              <li>
+                <a href="privacy.html" class="hover:text-[var(--primary)] transition-colors duration-300">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="terms.html" class="hover:text-[var(--primary)] transition-colors duration-300">Terms of Service</a>
+              </li>
+              <li>
+                <a href="blog.html" class="hover:text-[var(--primary)] transition-colors duration-300">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h3 class="text-sm font-medium text-gray-200 mb-3 flex items-center gap-2">
+              <span class="material-symbols-rounded text-base text-[var(--primary)]">mail</span>
+              Contact
+            </h3>
+            <ul class="space-y-2 text-sm font-light text-gray-400">
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-rounded text-base text-gray-400">alternate_email</span>
+                <a href="mailto:info@awantrix.com" class="hover:text-[var(--primary)] transition-colors duration-300">
+                  info@awantrix.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social -->
+          <div>
+            <h3 class="text-sm font-medium text-gray-200 mb-3 flex items-center gap-2">
+              <span class="material-symbols-rounded text-base text-[var(--primary)]">share</span>
+              Follow
+            </h3>
+            <div class="flex items-center gap-3">
+              <a href="#" aria-label="LinkedIn" class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-gray-700 bg-gray-900/70 text-gray-300 hover:text-[var(--primary)] hover:border-[var(--primary)] hover:bg-gray-900 transition-all duration-300">
+                <i class="fab fa-linkedin-in text-sm"></i>
+              </a>
+              <a href="#" aria-label="Twitter" class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-gray-700 bg-gray-900/70 text-gray-300 hover:text-[var(--primary)] hover:border-[var(--primary)] hover:bg-gray-900 transition-all duration-300">
+                <i class="fab fa-x-twitter text-sm"></i>
+              </a>
+              <a href="#" aria-label="GitHub" class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-gray-700 bg-gray-900/70 text-gray-300 hover:text-[var(--primary)] hover:border-[var(--primary)] hover:bg-gray-900 transition-all duration-300">
+                <i class="fab fa-github text-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-800 pt-4 mt-2 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
+          <p class="text-[11px] text-gray-500">
+            &copy; 2025 Awantrix. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Required JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mobile Menu Toggle
+      const mobileMenuButton = document.querySelector('.mobile-menu-button');
+      const mobileMenu = document.querySelector('.mobile-menu');
+      
+      if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          const icon = mobileMenuButton.querySelector('i');
+          if (icon) {
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+          }
+        });
+
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            const icon = mobileMenuButton.querySelector('i');
+            if (icon) {
+              icon.classList.remove('fa-times');
+              icon.classList.add('fa-bars');
+            }
+          });
+        });
+      }
+
+      // FAQ Accordion Toggle (if FAQ section exists)
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        if (question) {
+          question.addEventListener('click', () => {
+            const answer = item.querySelector('.faq-answer');
+            const isOpen = !answer.classList.contains('hidden');
+            
+            // Close all other FAQ items
+            faqItems.forEach(otherItem => {
+              if (otherItem !== item) {
+                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+              }
+            });
+            
+            // Toggle current item
+            answer?.classList.toggle('hidden');
+            item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+          });
+        }
+      });
+
+      // Smooth Scroll for Anchor Links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href !== '#' && href.length > 1) {
+            e.preventDefault();
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
