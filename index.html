@@ -1629,7 +1629,119 @@
       </div>
     </section>
 
-    <!-- Footer -->
+        <!-- Pen Test Type Modal -->
+    <div id="pentest-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/60 backdrop-blur-sm">
+      <div class="relative w-full max-w-md mx-4 rounded-lg border border-gray-700 bg-gray-900 shadow-2xl shadow-black/80">
+        <!-- Close Button -->
+        <button type="button" class="absolute top-4 right-4 inline-flex items-center justify-center rounded-full h-8 w-8 text-gray-400 hover:text-white hover:bg-gray-800 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" onclick="document.getElementById('pentest-modal').classList.add('hidden')" aria-label="Close modal">
+          <span class="material-symbols-rounded text-xl">close</span>
+        </button>
+
+        <div class="p-8">
+          <h2 class="font-display text-2xl font-bold text-white mb-2">What type of pen test do you need?</h2>
+          <p class="text-sm text-gray-400 mb-6">Select your testing requirements to find the perfect provider.</p>
+
+          <div class="space-y-3">
+            <!-- Network Testing -->
+            <button type="button" class="w-full text-left p-4 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 hover:border-[var(--primary)] transition-all duration-300 group" onclick="selectPenTest('network')">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-rounded text-2xl text-[var(--primary)] group-hover:scale-110 transition-transform">router</span>
+                <div>
+                  <p class="font-semibold text-white">Network Penetration Testing</p>
+                  <p class="text-xs text-gray-400">Internal & external network assessment</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Web Application Testing -->
+            <button type="button" class="w-full text-left p-4 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 hover:border-sky-400 transition-all duration-300 group" onclick="selectPenTest('web')">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-rounded text-2xl text-sky-400 group-hover:scale-110 transition-transform">language</span>
+                <div>
+                  <p class="font-semibold text-white">Web Application Testing</p>
+                  <p class="text-xs text-gray-400">OWASP Top 10 & API vulnerabilities</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Mobile Testing -->
+            <button type="button" class="w-full text-left p-4 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 hover:border-emerald-400 transition-all duration-300 group" onclick="selectPenTest('mobile')">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-rounded text-2xl text-emerald-400 group-hover:scale-110 transition-transform">phone_iphone</span>
+                <div>
+                  <p class="font-semibold text-white">Mobile Testing</p>
+                  <p class="text-xs text-gray-400">iOS & Android security assessment</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Cloud Security Testing -->
+            <button type="button" class="w-full text-left p-4 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 hover:border-[var(--accent)] transition-all duration-300 group" onclick="selectPenTest('cloud')">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-rounded text-2xl text-[var(--accent)] group-hover:scale-110 transition-transform">cloud</span>
+                <div>
+                  <p class="font-semibold text-white">Cloud Security Testing</p>
+                  <p class="text-xs text-gray-400">AWS, Azure & GCP assessment</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Red Team Operations -->
+            <button type="button" class="w-full text-left p-4 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 hover:border-red-400 transition-all duration-300 group" onclick="selectPenTest('redteam')">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-rounded text-2xl text-red-400 group-hover:scale-110 transition-transform">security</span>
+                <div>
+                  <p class="font-semibold text-white">Red Team Operations</p>
+                  <p class="text-xs text-gray-400">Advanced adversarial simulation</p>
+                </div>
+              </div>
+            </button>
+
+            <!-- Social Engineering -->
+            <button type="button" class="w-full text-left p-4 rounded-lg border border-gray-800 bg-gray-900/60 hover:bg-gray-800 hover:border-purple-400 transition-all duration-300 group" onclick="selectPenTest('social')">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-rounded text-2xl text-purple-400 group-hover:scale-110 transition-transform">person_alert</span>
+                <div>
+                  <p class="font-semibold text-white">Social Engineering Testing</p>
+                  <p class="text-xs text-gray-400">Phishing & security awareness</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Back Button -->
+          <button type="button" class="w-full mt-6 py-3 px-4 rounded-lg border border-gray-700 bg-gray-900/60 text-gray-300 hover:text-white hover:bg-gray-800 hover:border-gray-600 transition-all duration-300 font-medium" onclick="document.getElementById('pentest-modal').classList.add('hidden')">
+            Back to Site
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openPenTestModal() {
+        document.getElementById('pentest-modal').classList.remove('hidden');
+      }
+
+      function selectPenTest(type) {
+        console.log('Selected pen test type:', type);
+        // Redirect to marketplace with selected type
+        window.location.href = 'https://awantrix.com?pentest=' + type;
+      }
+
+      // Close modal when clicking outside
+      document.getElementById('pentest-modal').addEventListener('click', function(e) {
+        if (e.target === this) {
+          this.classList.add('hidden');
+        }
+      });
+
+      // Close modal with Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          document.getElementById('pentest-modal').classList.add('hidden');
+        }
+      });
+    </script><!-- Footer -->
     <footer class="border-t border-gray-800/80 bg-black">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-12 mb-10">
